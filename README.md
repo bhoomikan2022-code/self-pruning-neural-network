@@ -89,11 +89,28 @@ This encourages the model to remain accurate while using fewer effective connect
 - Better feature extraction using convolutional layers
 - Successful integration of trainable pruning mechanism
 
+## Training Loss Curve
+
+![Training Loss](training_loss.png)
+
+## Gate Distribution
+
+![Gate Distribution](gate_distribution.png)
+
 ## Files Included
 
-- self_pruning_nural_network.ipynb — complete notebook implementation
+- Self_Pruning_Neural_Network.ipynb — complete notebook implementation
 - report.md — methodology, experiments, and conclusions
 - README.md — project overview
+- training_loss.png — training performance graph
+- gate_distribution.png — learned gate values visualization
+
+## How to Run
+
+1. Open `Self_Pruning_Neural_Network.ipynb` in Google Colab.
+2. Enable GPU runtime for faster training.
+3. Run all cells sequentially.
+4. View final accuracy, sparsity metrics, and generated plots.
 
 ## Future Improvements
 
